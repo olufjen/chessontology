@@ -94,7 +94,7 @@ public interface Realizable_entity extends Specifically_dependent_continuant {
      * 
      * @returns a collection of values for the hasName property.
      */
-    Collection<? extends Object> getHasName();
+    Collection<? extends java.lang.Object> getHasName();
 
     /**
      * Checks if the class has a hasName property value.<p>
@@ -108,14 +108,14 @@ public interface Realizable_entity extends Specifically_dependent_continuant {
      * 
      * @param newHasName the hasName property value to be added
      */
-    void addHasName(Object newHasName);
+    void addHasName(java.lang.Object newHasName);
 
     /**
      * Removes a hasName property value.<p>
      * 
      * @param oldHasName the hasName property value to be removed.
      */
-    void removeHasName(Object oldHasName);
+    void removeHasName(java.lang.Object oldHasName);
 
 
 
