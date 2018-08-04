@@ -89,19 +89,19 @@ public class DefaultBlackGamePosition extends WrappedIndividualImpl implements B
      * Data Property http://www.co-ode.org/ontologies/ont.owl#hasName
      */
      
-    public Collection<? extends Object> getHasName1() {
-		return getDelegate().getPropertyValues(getOwlIndividual(), Vocabulary.DATA_PROPERTY_HASNAME, Object.class);
+    public Collection<? extends java.lang.Object> getHasName() {
+		return getDelegate().getPropertyValues(getOwlIndividual(), Vocabulary.DATA_PROPERTY_HASNAME, java.lang.Object.class);
     }
 
     public boolean hasHasName() {
-		return !getHasName1().isEmpty();
+		return !getHasName().isEmpty();
     }
 
-    public void addHasName1(Object newHasName) {
+    public void addHasName(java.lang.Object newHasName) {
 	    getDelegate().addPropertyValue(getOwlIndividual(), Vocabulary.DATA_PROPERTY_HASNAME, newHasName);
     }
 
-    public void removeHasName1(Object oldHasName) {
+    public void removeHasName(java.lang.Object oldHasName) {
 		getDelegate().removePropertyValue(getOwlIndividual(), Vocabulary.DATA_PROPERTY_HASNAME, oldHasName);
     }
 
@@ -170,31 +170,6 @@ public class DefaultBlackGamePosition extends WrappedIndividualImpl implements B
 
 
 
-	@Override
-	public Collection<? extends Object> getHasName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-
-
-
-
-	@Override
-	public void addHasName(Object newHasName) {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-
-
-
-	@Override
-	public void removeHasName(Object oldHasName) {
-		// TODO Auto-generated method stub
-		
-	}
 
 
 }

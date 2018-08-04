@@ -89,19 +89,19 @@ public class DefaultChessPiece extends WrappedIndividualImpl implements ChessPie
      * Data Property http://www.co-ode.org/ontologies/ont.owl#hasName
      */
      
-    public Collection<? extends Object> getHasName() {
-		return getDelegate().getPropertyValues(getOwlIndividual(), Vocabulary.DATA_PROPERTY_HASNAME, Object.class);
+    public Collection<? extends java.lang.Object> getHasName() {
+		return getDelegate().getPropertyValues(getOwlIndividual(), Vocabulary.DATA_PROPERTY_HASNAME, java.lang.Object.class);
     }
 
     public boolean hasHasName() {
 		return !getHasName().isEmpty();
     }
 
-    public void addHasName(Object newHasName) {
+    public void addHasName(java.lang.Object newHasName) {
 	    getDelegate().addPropertyValue(getOwlIndividual(), Vocabulary.DATA_PROPERTY_HASNAME, newHasName);
     }
 
-    public void removeHasName(Object oldHasName) {
+    public void removeHasName(java.lang.Object oldHasName) {
 		getDelegate().removePropertyValue(getOwlIndividual(), Vocabulary.DATA_PROPERTY_HASNAME, oldHasName);
     }
 
