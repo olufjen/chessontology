@@ -16,32 +16,6 @@
     <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_pNAnI5I_EeiirdlQVieinw" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowaAxisManager" disconnectSlave="true"/>
   </nattable:Table>
   <notation:Diagram xmi:id="_pN3iwJI_EeiirdlQVieinw" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_0kigEpI_EeiirdlQVieinw" type="Class_Shape">
-      <children xmi:type="notation:DecorationNode" xmi:id="_0kigFJI_EeiirdlQVieinw" type="Class_NameLabel"/>
-      <children xmi:type="notation:DecorationNode" xmi:id="_0kigFZI_EeiirdlQVieinw" type="Class_FloatingNameLabel">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_0kigFpI_EeiirdlQVieinw" y="15"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_0kigF5I_EeiirdlQVieinw" type="Class_AttributeCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_0kigGJI_EeiirdlQVieinw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_0kigGZI_EeiirdlQVieinw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_0kigGpI_EeiirdlQVieinw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0kigG5I_EeiirdlQVieinw"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_0kigHJI_EeiirdlQVieinw" type="Class_OperationCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_0kigHZI_EeiirdlQVieinw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_0kigHpI_EeiirdlQVieinw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_0kigH5I_EeiirdlQVieinw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0kigIJI_EeiirdlQVieinw"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_0kigIZI_EeiirdlQVieinw" type="Class_NestedClassifierCompartment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_0kigIpI_EeiirdlQVieinw"/>
-        <styles xmi:type="notation:SortingStyle" xmi:id="_0kigI5I_EeiirdlQVieinw"/>
-        <styles xmi:type="notation:FilteringStyle" xmi:id="_0kigJJI_EeiirdlQVieinw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0kigJZI_EeiirdlQVieinw"/>
-      </children>
-      <element xmi:type="uml:Class" href="model.uml#_0eUjUJI_EeiirdlQVieinw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0kigE5I_EeiirdlQVieinw" x="526" y="144"/>
-    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_pN3iwZI_EeiirdlQVieinw" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_pN3iwpI_EeiirdlQVieinw"/>
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_pN3iw5I_EeiirdlQVieinw" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
