@@ -1,7 +1,7 @@
 package no.chess.ontology.impl;
 
 import no.chess.ontology.*;
-import no.chess.ontology.Process;
+
 
 import java.net.URI;
 import java.util.Collection;
@@ -21,7 +21,7 @@ import org.semanticweb.owlapi.model.OWLOntology;
  * Source Class: DefaultProcess <br>
  * @version generated on Tue Oct 09 13:17:06 CEST 2018 by olj
  */
-public class DefaultProcess extends WrappedIndividualImpl implements Process {
+public class DefaultProcess extends WrappedIndividualImpl implements no.chess.ontology.Process {
 
     public DefaultProcess(CodeGenerationInference inference, IRI iri) {
         super(inference, iri);
